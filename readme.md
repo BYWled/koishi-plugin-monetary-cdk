@@ -12,16 +12,18 @@
 
 <p align="center">
 	<a href="https://gitee.com/BYWled/koishi-plugin-monetary-cdk"><img src="https://img.shields.io/badge/Gitee-代码镜像-C71D23?style=for-the-badge&logo=gitee&logoColor=white" alt="Gitee Mirror" /></a>
+	<a href="https://gitcode.com/BYWled/koishi-plugin-monetary-cdk"><img src="https://img.shields.io/badge/GitCode-代码镜像-2962FF?style=for-the-badge" alt="GitCode Mirror" /></a>
 </p>
 
 <p align="center">
 	<a href="https://github.com/BYWled/koishi-plugin-monetary-cdk">GitHub</a> ·
-	<a href="https://gitee.com/BYWled/koishi-plugin-monetary-cdk">Gitee</a>
+	<a href="https://gitee.com/BYWled/koishi-plugin-monetary-cdk">Gitee</a> ·
+	<a href="https://gitcode.com/BYWled/koishi-plugin-monetary-cdk">GitCode</a>
 </p>
 
 一个更现代化的兑换码（CDK）插件：管理员可通过指令动态创建兑换码活动，支持时效、份数、指定用户/频道、每人限兑次数，并保留完整兑换审计流水。兑换采用数据库事务保证原子性，杜绝并发超兑。除指令外，也支持在插件配置中定义静态兑换码（启动时自动同步）。
 
-> 版本：**1.0.0**
+> 版本：**Alpha.1**
 
 ## ✨ 特性
 

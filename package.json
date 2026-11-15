@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-monetary-cdk",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.1",
   "description": "为 monetary 货币系统提供现代化兑换码：指令建码、时效、份数、指定人/频道与完整兑换审计",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/BYWled/koishi-plugin-monetary-cdk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BYWled/koishi-plugin-monetary-cdk"
+    "url": "git+https://github.com/BYWled/monetary-cdk.git"
   },
   "koishi": {
     "description": {
@@ -52,5 +52,9 @@
   "peerDependencies": {
     "koishi": "^4.18.11",
     "koishi-plugin-monetary": "*"
+  },
+  "publishConfig": {
+    "tag": "alpha",
+    "access": "public"
   }
 }
