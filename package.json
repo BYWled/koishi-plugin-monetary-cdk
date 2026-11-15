@@ -1,0 +1,56 @@
+{
+  "name": "koishi-plugin-monetary-cdk",
+  "version": "1.0.0",
+  "description": "为 monetary 货币系统提供现代化兑换码：指令建码、时效、份数、指定人/频道与完整兑换审计",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "monetary",
+    "cdk",
+    "redemption",
+    "兑换码",
+    "货币",
+    "福利",
+    "经济",
+    "economy"
+  ],
+  "author": {
+    "name": "BYWled",
+    "email": "bywled@qq.com",
+    "url": "https://github.com/BYWled"
+  },
+  "homepage": "https://github.com/BYWled/koishi-plugin-monetary-cdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BYWled/koishi-plugin-monetary-cdk"
+  },
+  "koishi": {
+    "description": {
+      "en": "Modern redemption codes for monetary: command-created codes with expiry, shares, user/channel restrictions and full audit",
+      "zh": "为 monetary 货币系统提供现代化兑换码：指令建码、时效、份数、指定人/频道与完整兑换审计"
+    },
+    "service": {
+      "required": [
+        "database",
+        "monetary"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.11",
+    "koishi-plugin-monetary": "*"
+  }
+}
